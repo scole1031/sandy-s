@@ -1,0 +1,339 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #FEFAFD;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+header {
+    background-color: #FFDDFF;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0C0B0C 2px solid;
+}
+
+header a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+header #headerlogo {
+    float: left;
+    margin-bottom: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header a:hover {
+    color:#A442DC;
+}
+
+nav a:active  {
+    color:#A442DC;
+}
+
+/* Main */
+#main {
+    text-align: center;
+}
+
+
+#main h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#main p{
+    font-size: 20px;
+}
+
+/* Pictures */
+#pictures {
+    margin-top: 20px;
+}
+
+#pictures .pics {
+    width: 30%;
+    float: left;
+    text-align: center; 
+}
+
+#pictures .pics img {
+    width: 50%;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    min-height: 70px; 
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #FFDDFF; 
+    text-align: center;
+    border-top: #0C0B0C 2px solid;
+}
+
+footer .info {
+    display: inline-block;
+    padding: 0 100px 0 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #A442DC;
+}
+
+
+/* About */
+.wrapper { 
+  overflow:hidden;
+}
+
+.wrapper div {
+   padding: 10px;
+}
+
+#staff {
+  float:left; 
+  margin-left:140px;
+  width: 42%;
+}
+
+#about { 
+  overflow:hidden;
+  margin:10px;
+  min-height:200px;
+  margin-right: 60px;
+}
+
+#stafflist td, #stafflist th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#stafflist tr:nth-child(even){background-color: #f2f2f2;}
+
+#stafflist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FFDDFF;
+    color: #000000;
+}
+
+@media screen and (max-width: 660px) {
+   #staff { 
+    float: none;
+    width:auto;
+   }
+}
+@media screen and (max-width: 500px) {
+   #staff { 
+    float: right;
+    width:auto;
+   }
+}
+
+
+/* Services Link  */
+.wrapper {  
+  overflow:hidden;
+}
+
+.wrapper div {
+   padding: 10px;
+}
+#services{
+  float:left; 
+  margin-left:140px;
+  width: 43%;
+}
+
+#imagevet { 
+  overflow:hidden;
+  margin:10px;
+  margin-right: 60px;
+}
+
+.vetandkennel {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 780px) {
+   #imagevet { 
+    float: left;
+    postion: relative;
+   }
+}
+
+
+/*  Location */
+
+.location {
+    margin-top: -15px;
+}
+
+#map {
+        width: 60%;
+        height: 200px;
+        margin: auto;
+}
+
+#mapheading {
+    text-align: center;
+}
+
+/* Form*/
+ * {
+    box-sizing: border-box;
+}
+
+label {
+    padding: 8px 8px 8px 0;
+    display: inline-block;
+    margin-left: 60%;
+}
+
+input[type=text], select, textarea{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #FB3131;
+    color: #ffffff;
+    padding: 11px 11px 11px 11px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #FFDDFF;
+    color: #000000;
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.field1 {
+    float: left;
+    width: 25%;
+    margin-top: 7px;
+}
+
+.field2 {
+    float: left;
+    width: 75%;
+    margin-top: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media (max-width: 650px) {
+    .field1, .field2, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    label {
+        margin-left: 3px;
+    }
+   input[type=submit] {
+       margin-left: 3px;
+       padding: 5px 0;
+       margin-top: 15px;
+    }
+}
+
+
+
+/*  Grooming Form  */
+
+#gservice {
+    width: 75%;
+    margin: auto;
+}
+
+
+#groom {
+     text-align: center;
+}
+
+.para {
+    margin: 10px;
+}
+
+.line {
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+/*  Contact Form */
+#chead {
+    text-align: center;
+}
+
+
+
+
+
+
